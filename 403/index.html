@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Amal</title>
+</head>
+
+<body>
+    <center>
+        <h1 class="todo">Todo List</h1>
+        <form name="add_task" >
+            <input type="text" name="title" class="new_prod">
+            <button class="save_prod">ADD</button>
+        </form>
+        <hr>
+    </center>
+    <div class="main_box">
+    </div>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span id="close-btn" class="close">&times;</span>
+            <h2>Именить текст</h2>
+            <input type="text" id="modal-title">
+            <button class="save-btn">Сохранить</button>
+        </div>
+    </div>
+
+    <script type="module" src="./index.js"></script>
+</body>
+
+</html>
